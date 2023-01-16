@@ -1,6 +1,6 @@
 # difsorting
 
-What is this program for?
+What is this program for
 =========================
 
 1) It allows to rename files in one chosen directory by modification date by adding decent number before its name
