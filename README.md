@@ -25,20 +25,21 @@ After usage name will be:
 
 Installation
 ============
-
+```
 pip install -r requirements.txt
+```
 
 Usage
 =====
-
 Open terminal in program directory and enter:
-
+```
 python main.py
-
+```
 Choose actions and enter absolute directory path where files you want to rename located
 
 For example:
-
+```
 /home/theuser/Pictures/
+```
 
 All files in directory Pictures will be placed in program directory "SortedFiles"
