@@ -26,7 +26,7 @@ After usage name will be:
 Installation
 ============
 
-pip install --r requirements.txt
+pip install -r requirements.txt
 
 Usage
 =====
