@@ -1,9 +1,9 @@
 # difsorting
 
-What is this program for
-=========================
-
-1) It allows to rename files in one chosen directory by modification date by adding decent number before its name
+About
+=====
+Works on linux and windows
+1) This program allows to rename files in one chosen directory by modification date by adding decent number before its name
 
 For example:\
  We created files in this order:
