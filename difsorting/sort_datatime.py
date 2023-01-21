@@ -32,10 +32,8 @@ class SorterDataTime:
             keys.append(sorted_by_data_files_tuple[i][0])
 
         new_dir = file_location_path + renamed_files_folder + dir_name
-        try:
-            folder_creater.create_folder(new_dir, file_location_path, renamed_files_folder)
-        except Exception as e:
-            return e
+
+        folder_creater.create_folder(new_dir, file_location_path, renamed_files_folder)
 
         j = 0
         while j != len(file_list):

@@ -17,6 +17,7 @@ def menu():
               "'1' Files sorting\n"
               "'2' Rename files by hash\n"
               "'3' Rename files by hash and sort them by modification time\n"
+              "'4' Rename one file by hash\n"
               "'0' Close program")
         inp = input()
         if inp == "1":
@@ -49,6 +50,12 @@ def menu():
             print("Chosen path:\n", path)
             if conformation.conformation():
                 sort_datatime.SorterDataTime(rename_by_hash.RenamerByHash(path).platform_worker()).platform_worker()
+        elif inp == "4":
+            print("Enter file location")
+            path = input()
+            print("Chosen path:\n", path)
+            if conformation.conformation():
+                print(rename_by_hash.RenamerByHash(path).rename_one_file_by_hash())
 
         elif inp == "0":
             return
