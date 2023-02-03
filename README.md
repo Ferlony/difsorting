@@ -26,6 +26,10 @@ After usage name will be:
 Installation
 ============
 ```
+git clone https://github.com/Ferlony/difsorting
+cd difsorting
+python -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
